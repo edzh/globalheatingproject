@@ -1,0 +1,126 @@
+body {
+    /*Default font and color*/
+    font-family: 'alexandriaflfregular','Open Sans', sans-serif;
+    color: white;
+
+    /*Background Image*/
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container {
+    max-width: 980px;
+}
+.tab-content ul li {
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    max-width: 900px;
+    margin-top: 32px;
+    font-size: 30px;
+    font-family: 'alexandriaflfbold';
+    line-height: 36px;
+    text-shadow: 2px 2px rgba(0,0,0,0.25);
+}
+.tab-content p {
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    max-width: 900px;
+    margin-top: 32px;
+    font-size: 30px;
+    font-family: 'alexandriaflfbold';
+    line-height: 36px;
+    text-shadow: 2px 2px rgba(0,0,0,0.25);
+}
+.tab-content h3 {
+    font-family: 'alexandriaflfbold';
+    font-size: 90px;
+    text-align: center;
+    padding: 32px 0px 128px 0px;
+    line-height: 69px;
+    text-shadow: 4px 4px rgba(0,0,0,0.25);
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+.container h1 {
+    font-family: 'alexandriaflfbold', 'Open Sans';
+	font-size: 130px;
+	text-align: center;
+	color: white;
+	text-shadow: 6px 6px rgba(0,0,0,0.25)
+}
+.container h2 {
+    font-family: 'alexandriaflfmedium_italic';
+    font-size: 44px;
+    text-align: center;
+    max-width: 940px;
+}
+.container h2 span {
+    font-family: 'alexandriaflfbold_italic';
+    font-size: 69px;
+    padding: 5px;
+    line-height: 69px;
+    text-shadow: 4px 4px rgba(0,0,0,0.25);
+}
+.header p {
+	text-align: center;
+	font-weight: 400
+}
+.pull-center {
+	text-align: center;
+}
+.pull-center > .nav {
+    float: none;
+    display: inline-block;
+}
+.navbar-inner {
+    border-radius: 0px;
+    background: rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+.navbar .nav > li > a {
+    font-size: 16px;
+    color: rgba(255,255,255,0.9);
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    text-shadow: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.navbar .nav > li > a > img {
+    padding-right: 10px;
+    margin-bottom: -25px;
+    margin-top: -30px;
+}
+.navbar .nav > li > a > img > span{
+    float: none;
+}
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+    background: rgba(0,0,0,0.1);
+}
+.navbar .nav > li > a:hover {
+    color:white;
+}
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+    color:white;
+}
+.divider {
+    max-width: 880px;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background-color: rgba(0,0,0,0.1);
+    margin-top: 10px;
+}

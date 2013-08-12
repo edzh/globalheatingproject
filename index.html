@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Global Heating</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/font/stylesheet.css" />
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+
+</head>
+<body>
+	<div class="navbar navbar-inner navbar-static-top">
+		<div class="container">
+			<ul class="nav navbar-nav" id="nav-tabs">
+				<li class="active"><a href="#home" data-toggle="tab"><img src="images/globe.png" />Global Heating</a></li>
+				<li><a href="#info" data-toggle="tab">Go in-depth</a></li>
+				<li><a href="#data" data-toggle="tab">Get the data</a></li>
+				<li><a href="#solution" data-toggle="tab">Solutions</a></li>
+				<li><a href="#about" data-toggle="tab">About the project</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container header">
+		<!-- Banner -->
+		<h1>Global Heating</h1>
+		<h2>is a <span>clearer</span> and more <span>profound</span> way to <span>think about</span> climate change</h2>
+	</div>
+	<div class="divider"></div>
+	<div class="tab-content">
+		<div class="tab-pane active" id="home">
+			<ul><li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, temporibus, ipsam voluptatum quas eum veniam pariatur dignissimos quos alias saepe quia impedit accusamus incidunt autem assumenda modi minus repellendus. Quos, distinctio explicabo quas voluptate eveniet fuga impedit eligendi enim culpa ipsam corporis iusto beatae. Distinctio, ducimus quas amet commodi asperiores.</li></ul>
+			<h3><a href="#info" data-toggle="tab" id="read-on">Read on <i class="icon-arrow-down"></i></a></h3>
+		</div>
+		<div class="tab-pane" id="info">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, quia.</p>
+		</div>
+		<div class="tab-pane" id="data">
+			<p>Lorem ipsum dolor sit amet.</p>
+		</div>
+		<div class="tab-pane" id="solution">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, dolore, distinctio deserunt maiores rem eum.</p>
+		</div>
+		<div class="tab-pane" id="about">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, tempore, vitae numquam libero facilis eligendi natus nihil ullam laboriosam deleniti?</p>
+		</div>
+	</div></div>
+	<script src="js/jquery-2.0.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(function() {
+			$('#read-on').click(function (e) {
+				e.preventDefault();
+				$('#nav-tabs a[href="#info"]')
+					.tab('show')
+					.addClass('active');
+			});
+		});
+	</script>
+</body>
+</html>
