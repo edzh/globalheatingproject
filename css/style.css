@@ -63,8 +63,11 @@ a:hover {
 .container h2 {
     font-family: 'alexandriaflfmedium_italic';
     font-size: 44px;
-    text-align: center;
+    text-align: left;
     max-width: 940px;
+    line-height: 84px;
+    margin-top: -10px;
+    margin-left: 20px;
 }
 .container h2 span {
     font-family: 'alexandriaflfbold_italic';
@@ -77,14 +80,7 @@ a:hover {
 	text-align: center;
 	font-weight: 400
 }
-.pull-center {
-	text-align: center;
-}
-.pull-center > .nav {
-    float: none;
-    display: inline-block;
-}
-.navbar-inner {
+.navbar {
     border-radius: 0px;
     background: rgba(0,0,0,0.2);
     border-top: 1px solid rgba(255,255,255,0.5);
@@ -117,10 +113,36 @@ a:hover {
     color:white;
 }
 .divider {
-    max-width: 880px;
+    max-width: 940px;
     height: 2px;
     display: block;
     margin: auto;
-    background-color: rgba(0,0,0,0.1);
-    margin-top: 10px;
+    background-color: rgba(0,0,0,0.15);
+    margin-top: 20px;
+}
+.navbar-toggle {
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+.navbar-toggle .icon-bar {
+    background-color: rgba(255,255,255,0.9);
+}
+.navbar-toggle:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+.navbar-toggle:focus {
+    background-color: rgba(0,0,0,0);
+}
+.navbar-collapse {
+    border: none;
+    overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+    .navbar-nav {
+        margin-left: 3%;
+    }
+    .navbar .nav > li > a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
